@@ -1,0 +1,67 @@
+/* Footer area */
+.footer {
+	background-color: #1d1d1d;
+	padding: 60px 0;
+}
+.socialMediaIcon {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 3px solid #3a3a3a;
+	padding: 8px;
+	border-radius: 100px;
+	vertical-align: top;
+}
+.socialMediaIcon img {
+	max-height: 100%;
+}
+.agreement a {
+	font-size: 1.1rem;
+	color: #d8d8d8;
+}
+.agreement a:first-child {
+	padding-right: 5px;
+	margin-right: 0;
+	border-right: 2px solid #4a4848;
+}
+.newsletter {
+	text-align: right;
+}
+.newsletterForm input {
+	display: inline-block;
+	background: none;
+	border: 2px solid #ffffff;
+	color: #fff;
+	width: 364px;
+	max-width: 100%;
+	border-radius: 30px;
+}
+.newsletterForm input[type=email] {
+	padding: 12px 20px;
+	margin-bottom: 5px;
+}
+.newsletterForm input[type=submit] {
+	padding: 12px 0;
+}
+.formMessage p {
+	display: none;
+}
+.copyright {
+	background-color: #131315;
+	font-size: 0.7em;
+	padding: 5px 0;
+}
+
+@media only screen and (max-width: 991px) {
+	.newsletter {
+		text-align: left;
+		input {
+			display: block;
+		}
+	}
+}

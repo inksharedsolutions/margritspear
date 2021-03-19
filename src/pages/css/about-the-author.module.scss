@@ -1,0 +1,32 @@
+.aboutTheAuthorImg::before {
+	content: "";
+	background-color: rgba(208, 205, 205, 0.45);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 370px;
+	height: 580px;
+	padding-bottom: 1rem;
+	z-index: 1;
+}
+.aboutTheAuthorImg img {
+	width: 350px;
+	margin: 7rem auto 0;
+	display: block;
+	z-index: 2;
+	position: relative;
+}
+.aboutTheAuthorContents p {
+	text-align: justify;
+}
+
+@media only screen and (max-width: 991px) {
+	.aboutTheAuthorImg {
+		&::before {
+			display: none;
+		}
+		img {
+			margin: 0 auto;
+		}
+	}
+}

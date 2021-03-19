@@ -1,0 +1,19 @@
+.banner {
+	.bannerContents {
+		text-align: center;
+	}
+	.bannerHeading {
+		display: inline-block;
+		margin: 0;
+
+		span {
+			font-size: 7vw;
+			text-shadow: 3px 3px rgba(255, 255, 255, 0.2);
+			background-image: url(/banner-text-bg.jpg);
+			background-size: cover;
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
+			display: block;
+		}
+	}
+}

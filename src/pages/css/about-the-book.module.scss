@@ -1,0 +1,28 @@
+.aboutTheBookImg img {
+	width: 350px;
+	margin: 0 auto;
+	display: block;
+}
+.aboutTheBookContents p {
+	text-align: justify;
+}
+.booklinks {
+	li {
+		display: inline-block;
+		margin-right: 15px;
+		position: relative;
+
+		&:not(:first-child):not(:last-child)::after {
+			content: "";
+			height: 20px;
+			border-right: 4px double #000;
+			position: absolute;
+			right: -9px;
+			top: 5px;
+		}
+
+		a {
+			text-decoration: underline;
+		}
+	}
+}
