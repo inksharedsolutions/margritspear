@@ -22,10 +22,10 @@ const Author = () => {
 								<span>Margrit</span> <span>Spear</span>
 							</h2>
 							<p>
-								Margrit Spear holds a Ph.D. in Counseling Psychology from the University of Humanistic
-								Studies in San Diego. She is a California licensed Marriage, Family and Child Counselor,
-								former druggist, researcher, life coach and author of the book: Life-Changing Explosion
-								of Consciousness, Introduction to Holographic Psychology. She is currently president of
+								holds a Ph.D. in Counseling Psychology from the University of Humanistic Studies in San
+								Diego. She is a California licensed Marriage, Family and Child Counselor, former
+								druggist, researcher, life coach and author of the book: Life-Changing Explosion of
+								Consciousness, Introduction to Holographic Psychology. She is currently president of
 								LACCRS, an independent research group that has vested 50 years in examining the
 								interrelationship between mind, body and spirit. Born in Switzerland, she has a
 								multi-cultural background and enjoys diverse approaches in the field of psychology,

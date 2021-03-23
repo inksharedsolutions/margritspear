@@ -3,8 +3,15 @@ import Layout from '../layout/layout';
 import { Helmet } from 'react-helmet';
 import Banner2 from '../components/banner2';
 import styles from './css/about-the-book.module.scss';
+import { DiscussionEmbed } from 'disqus-react';
 
-const Book = () => {
+const Book = (props) => {
+	const slug = props.location.href;
+	const disqusConfig = {
+		shortname: 'margrit-spear',
+		config: { identifier: 12, slug }
+	};
+
 	return (
 		<Layout>
 			<Helmet>
@@ -99,6 +106,11 @@ const Book = () => {
 									</a>
 								</li>
 							</ul>
+						</div>
+						<div className={`col-lg-12 ${styles.commentSection}`}>
+							<div id="disqus_thread">
+								<DiscussionEmbed {...disqusConfig} />
+							</div>
 						</div>
 					</div>
 				</div>

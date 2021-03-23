@@ -40,7 +40,7 @@ const Footer = () => {
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6">
-                                Copyright &copy; 2020. Margrit Spear. All rights reserved.
+                                Copyright &copy; 2021. Margrit Spear. All rights reserved.
                             </div>
                             <div class="col-lg-6">
                                 Developed by: <a href="https://stratton-press.com/" target="_blank" rel="noopener noreferrer">Stratton Press</a>
