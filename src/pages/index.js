@@ -26,8 +26,8 @@ const Home = () => {
 							</h2>
 							<p>
 								has a PhD in Counseling Psychology, is a California-licensed Marriage and Family
-								therapist, and is the vice president of CCRS, an independent research group that has
-								vested fifty years in mind/body/spirit integration.{' '}
+								therapist, and is the president of CCRS, an independent research group that has vested
+								fifty years in mind/body/spirit integration.{' '}
 							</p>
 							<Link to="/about-the-author" className="readMore">
 								Read More
